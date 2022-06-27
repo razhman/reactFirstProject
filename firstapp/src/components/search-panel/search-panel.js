@@ -25,3 +25,4 @@ class SearchPanel extends Component{
 
 
 export default SearchPanel
+

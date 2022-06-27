@@ -98,6 +98,14 @@ class App extends Component{
   this.setState({filter})
  }
 
+ onUpdateInput = (id) => {
+   this.setState(({data})=>{
+     return{
+      data: data
+     }
+   })
+ }
+
   render(){
     const {data, term, filter} = this.state
     const employers = this.state.data.length
